@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+body{
+    background: #dad6d2;
+    text-align: center;
+    font-family: monospace;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #eee4e4;background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.card{
+   background: #b7b8cb;
+   text-align: center;
+   padding: 40px 90px;
+   color: #fff;
+   position: relative;
+   border-radius: 20px;
+   width: 375px;
+    height: 580px;
+    box-shadow: 0 12px 13px rgba(0, 0,0, 0.16),0;
+}
+
+.profilepic
+{
+width: 150px;
+border-radius: 50%;
+background: #fff;
+padding: 6px;
+margin-top: 40px;
+}
+.title{
+    color: #7c807c;
+    font-size: 16px;
+}
+.name{
+    color: #fff;
+
+}
+.desc{
+    font-size: 14px;
+    
+    color: #13131a;
+    margin-top: 16px;
+
+}
+.btn
+{
+    outline: none;
+    background-color: #166853;
+    margin-top: 20px;
+    border: none;
+    height: 40px;
+    width: 45%;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+}
+.btn :hover{
+    color:#166853;
+    background: #b7b8cb;
+    transition: all 300ms linear;
+    cursor: pointer;
+
+}
